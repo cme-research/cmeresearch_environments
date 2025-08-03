@@ -10,11 +10,11 @@ The `cmeresearch_environments` package provides map data for various environment
 # ROS Distro Support #
 
 
-|         |                                            melodic                                            |      noetic      |                  rolling                  |
-|:-------:|:---------------------------------------------------------------------------------------------:|:----------------:|:-----------------------------------------:|
-| Branch  | [`melodic_dev`](https://bitbucket.org/cme-robotics/cmeresearch_environments/src/melodic_dev/) |                  |   [`rolling_dev`] |
-| Status  |                                           supported                                           |  not supported   |  supported |
-| Version |                                        no yet released                                        | not yet released |    not yet released |
+|         |                                            melodic                                            |      noetic      |                                            rolling                                            |
+|:-------:|:---------------------------------------------------------------------------------------------:|:----------------:|:---------------------------------------------------------------------------------------------:|
+| Branch  | [`melodic_dev`](https://bitbucket.org/cme-robotics/cmeresearch_environments/src/melodic_dev/) |                  | [`rolling_dev`](https://bitbucket.org/cme-robotics/cmeresearch_environments/src/rolling_dev/) |
+| Status  |                                           supported                                           |  not supported   |                                           supported                                           |
+| Version |                                        no yet released                                        | not yet released |                                       not yet released                                        |
 
 
 
