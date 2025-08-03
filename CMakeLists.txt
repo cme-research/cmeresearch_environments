@@ -30,7 +30,7 @@ install(FILES
   envs/house/map.yaml
   envs/house/map.posegraph
   envs/house/map.data
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/envs/house/
+  DESTINATION share/${PROJECT_NAME}/envs/house/
 )
 
 install(FILES
@@ -39,7 +39,7 @@ install(FILES
   envs/laboriii/map.yaml
   envs/laboriii/map.posegraph
   envs/laboriii/map.data
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/envs/laboriii/
+  DESTINATION share/${PROJECT_NAME}/envs/laboriii/
 )
 
 ament_package()
