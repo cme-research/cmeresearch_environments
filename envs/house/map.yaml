@@ -1,4 +1,4 @@
-image: /robot/catkin_ws/install/share/unico_environments/envs/house/map.pgm
+image: /robot/ros2_ws/install/share/cmeresearch_environments/envs/house/map.pgm
 resolution: 0.050000
 origin: [4.103056, 1.134965, 0.000000]
 negate: 0
