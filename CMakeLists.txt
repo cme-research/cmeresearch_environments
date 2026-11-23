@@ -21,6 +21,10 @@ if(BUILD_TESTING)
     # a copyright and license is added to all source files
     set(ament_cmake_cpplint_FOUND TRUE)
     ament_lint_auto_find_test_dependencies()
+
+    # Map validity (nav2 map_server / slam_toolbox) and install completeness.
+    find_package(ament_cmake_pytest REQUIRED)
+    ament_add_pytest_test(test_maps test/test_maps.py TIMEOUT 60)
 endif()
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
